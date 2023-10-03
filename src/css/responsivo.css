@@ -1,3 +1,48 @@
-@media (max-width: 375px){
-    
+@media (max-width: 425px){
+    .container .card {
+        width: 350px;
+        height: 500px;
+        flex-wrap: wrap;
+    }
+
+    .container .card .container-principal .texto-principal {
+        padding: 5px;
+    }
+
+    .container .container-info {
+        width: 300px;
+        padding: 10px;
+    }
+
+    .container .container-info .titulo-plano {
+        font-size: 17px;
+    }
+
+    .container .container-info .btn-link {
+        margin: 0;
+        padding: 2px;
+    }
+}
+
+@media (max-width: 320px){
+    .container .card {
+        width: 300px;
+        height: 600px;
+    }
+    .container .card .container-principal .logo {
+        position: relative;
+        right: 1px;
+        margin-top: -45px;
+    }
+
+    .container .container-info {
+        position: relative;
+        right: 3px;
+        width: 270px;
+        padding: 5px;
+    }
+
+    .botoes .botao-principal {
+        width: 250px;
+    }
 }
